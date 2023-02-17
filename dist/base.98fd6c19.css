@@ -20,7 +20,7 @@ body {
     -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	/* Cursor styles */
-	--cursor-stroke: #644B47;
+	--cursor-stroke: #ccc;
 	--cursor-fill: none;
 	--cursor-stroke-width: 1px;
 }
@@ -222,7 +222,7 @@ a:focus {
 }
 
 .intro .menu__item--current::before {                
-    content: '01';
+    content: '';
     position: absolute;
     bottom: 110%;
     color: var(--color-title);

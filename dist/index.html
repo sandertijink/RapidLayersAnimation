@@ -20,16 +20,8 @@ var supportsCssVars = function supportsCssVars() {
 
 supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 	</head>
-	<body class="loading">
+	<body class="loading" style="background: white">
 		<main class="intro">
-			<div class="frame">
-				<h1 class="frame__title">Rapid image layers animation</h1>
-				<div class="frame__links">
-					<a href="https://tympanus.net/codrops/?p=48939">Article</a>
-					<a href="https://github.com/codrops/RapidLayersAnimation/">GitHub</a>
-				</div>
-				<p class="frame__info">Click the middle menu item to see the effect.</p>
-			</div>
 			<div class="content">
 				<div class="grid">
 					<div class="grid__item grid__item--a" style="background-image:url(3.a433b89d.jpg)"></div>
@@ -40,15 +32,14 @@ supportsCssVars() || alert("Please view this demo in a modern browser that suppo
 					<div class="grid__item grid__item--f" style="background-image:url(6.e96dcfff.jpg)"></div>
 				</div>
 				<nav class="menu">
-					<a class="menu__item">
+					<a class="menu__item" style="opacity: 0">
 						<h2 class="menu__item-title">Underground</h2>
 						<p class="menu__item-subtitle">Hey, dreamypie, wake up!</p>
 					</a>
 					<a class="menu__item menu__item--current">
-						<h2 class="menu__item-title">Commotion</h2>
-						<p class="menu__item-subtitle">Yo, sleepyhead! What's up?</p>
+						<h2 class="menu__item-title" style="color: #000; font-family: system-ui; font-weight: 500; font-size: 40px; font-style: normal;">Reitsema + partners</h2>
 					</a>
-					<a class="menu__item">
+					<a class="menu__item" style="opacity: 0">
 						<h2 class="menu__item-title">Interrogation</h2>
 						<p class="menu__item-subtitle">Ho ho, honey! What's the matter?</p>
 					</a>
